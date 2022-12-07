@@ -25,7 +25,7 @@
 Para Lanzar la API usamos
 "npm run start"
 
-# Por lo cual se debe seguir los siguientes pasos:
+# los siguientes pasos son para iniciar el servidor:
   1. Para inicializar el proyecto nos ubicamos en la carpeta secundaria InstayaServer/insta 
   2. Abrimos la consola y utilizamos el comando "npm install" para instalar las dependecias necesarias.
   3. Para inicializar el servidor en la parte de base de datos (api) usamos el comando "npm run start".
