@@ -119,7 +119,7 @@ function MailForm({ type }) {
         }}
       >
         {({ handleChange, handleSubmit, isSubmitting, values }) => (
-          <section className="bg-gray-50 dark:bg-gray-900">
+          <section className="bg-orange-600">
             <div className="flex flex-col items-center justify-center px- py-8 mx-auto md:h-screen lg:py-0">
               <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
                 <div className="p-6 space-y-4 md:space-y-6 sm:p-4">
@@ -134,7 +134,7 @@ function MailForm({ type }) {
                         onChange={handleChange}
                         onSubmit={handleChange}
                         defaultValue={dateFormat(values.toDate)}
-                        className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        className="bg-gray-50 border border-orange-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       />
                     </div>
 
@@ -318,7 +318,7 @@ function MailForm({ type }) {
                     <button
                       type="submit"
                       onClick={handleSubmit}
-                      className="px-6 py-2 border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-full"
+                      className="px-6 py-2 border-2 border-orange-600 text-orange-600 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-full"
                     >
                       Enviar
                     </button>

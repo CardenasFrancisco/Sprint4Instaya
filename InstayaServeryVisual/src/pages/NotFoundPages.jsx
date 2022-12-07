@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function NotFoundPages() {
   return (
-    <div>NotFoundPages</div>
-  )
+    <div>
+      <h1>Error Page</h1>
+    </div>
+  );
 }
 
-export default NotFoundPages
+export default NotFoundPages;
