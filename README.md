@@ -1,4 +1,4 @@
-# Este proyecto está creado con Create-react-app
+# Este proyecto está creado con Vite
 # Por lo cual se debe seguir los siguientes pasos:
   1. Para inicializar el proyecto nos ubicamos en la carpeta principal "proyectoMinticCiclo4".
   2. Abrimos la consola y utilizamos el comando "npm install".
