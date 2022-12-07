@@ -1,0 +1,457 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1.0.0",
+    "tittle": "instaYa API"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000",
+      "description": "Development server"
+    },
+    {
+      "url": "https://instaya.onrender.com",
+      "description": "Production server"
+    }
+  ],
+  "paths": {
+    "/api/register": {
+      "post": {
+        "summary": "Register a new user",
+        "operationId": "registerUser",
+        "tags": ["Register"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successfully registered"
+          },
+          "Default": {
+            "description": "Unexpected error"
+          }
+        }
+      }
+    },
+    "/api/login": {
+      "post": {
+        "summary": "Log in to service",
+        "operationId": "loginUser",
+        "tags": ["Login"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Logged!",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Token"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/mail": {
+      "get": {
+        "summary": "Get mails from user logged",
+        "tags": ["Mail"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/getMail"
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "required": true,
+            "description": "Token to access to /mail endpoint, given after login.",
+            "schema": {
+              "type": "string",
+              "example": "XX7BtJHDRCD2rrAWXEYauKOATN4TEGgx"
+            }
+          }
+        ]
+      },
+      "post": {
+        "summary": "Add new mail",
+        "tags": ["Mail"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mail"
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "required": true,
+            "description": "Token to access to /mail endpoint, given after login.",
+            "schema": {
+              "type": "string",
+              "example": "XX7BtJHDRCD2rrAWXEYauKOATN4TEGgx"
+            }
+          }
+        ]
+      },
+      "put": {
+        "summary": "Update a mail",
+        "tags": ["Mail"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/updateMail"
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "required": true,
+            "description": "Token to access to /mail endpoint, given after login.",
+            "schema": {
+              "type": "string",
+              "example": "XX7BtJHDRCD2rrAWXEYauKOATN4TEGgx"
+            }
+          }
+        ]
+      },
+      "delete": {
+        "summary": "Delete a mail",
+        "tags": ["Mail"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/deleteMail"
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "required": true,
+            "description": "Token to access to /mail endpoint, given after login.",
+            "schema": {
+              "type": "string",
+              "example": "XX7BtJHDRCD2rrAWXEYauKOATN4TEGgx"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "getMail": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "name": "andres123"
+        }
+      },
+      "Token": {
+        "type": "object",
+        "properties": {
+          "token": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "token": "123asf2143Afd$as"
+        }
+      },
+      "User": {
+        "type": "object",
+        "required": ["name", "password", "email", "user"],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string",
+            "format": "password"
+          },
+          "email": {
+            "type": "string"
+          },
+          "user": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "name": "Andres",
+          "password": "123",
+          "email": "andres@gmail.com",
+          "user": "andres123"
+        }
+      },
+      "Login": {
+        "type": "object",
+        "required": ["user", "password"],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string",
+            "format": "password"
+          }
+        },
+        "example": {
+          "user": "andres123",
+          "password": "123"
+        }
+      },
+      "Mail": {
+        "type": "object",
+        "required": ["toDate", "package", "toUser", "fromUser"],
+        "properties": {
+          "toDate": {
+            "type": "date"
+          },
+          "package": {
+            "type": "object",
+            "properties": {
+              "dimensions": {
+                "type": "object",
+                "properties": {
+                  "high": {
+                    "type": "Number"
+                  },
+                  "width": {
+                    "type": "Number"
+                  },
+                  "length": {
+                    "type": "Number"
+                  }
+                }
+              },
+              "weigth": {
+                "type": "Number"
+              },
+              "fragile": {
+                "type": "Boolean"
+              }
+            }
+          },
+          "toUser": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "dni": {
+                "type": "string"
+              },
+              "address": {
+                "type": "string"
+              },
+              "city": {
+                "type": "string"
+              }
+            }
+          },
+          "fromUser": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "required": true
+              },
+              "address": {
+                "type": "string",
+                "required": true
+              },
+              "city": {
+                "type": "string",
+                "required": true
+              }
+            }
+          },
+          "status": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "toDate": "2022-11-19T15:46:01.030Z",
+          "package": {
+            "dimensions": {
+              "high": 100,
+              "width": 100,
+              "length": 100
+            },
+            "weigth": 30,
+            "fragile": true
+          },
+          "toUser": {
+            "name": "C",
+            "dni": "123",
+            "address": "c",
+            "city": "c"
+          },
+          "fromUser": {
+            "name": "D",
+            "address": "d",
+            "city": "d"
+          }
+        }
+      },
+      "Mails": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/Mail"
+        }
+      },
+      "updateMail": {
+        "type": "object",
+        "required": ["id", "toDate", "package", "toUser", "fromUser"],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "toDate": {
+            "type": "date"
+          },
+          "package": {
+            "type": "object",
+            "properties": {
+              "dimensions": {
+                "type": "object",
+                "properties": {
+                  "high": {
+                    "type": "Number"
+                  },
+                  "width": {
+                    "type": "Number"
+                  },
+                  "length": {
+                    "type": "Number"
+                  }
+                }
+              },
+              "weigth": {
+                "type": "Number"
+              },
+              "fragile": {
+                "type": "Boolean"
+              }
+            }
+          },
+          "toUser": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "dni": {
+                "type": "string"
+              },
+              "address": {
+                "type": "string"
+              },
+              "city": {
+                "type": "string"
+              }
+            }
+          },
+          "fromUser": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "required": true
+              },
+              "address": {
+                "type": "string",
+                "required": true
+              },
+              "city": {
+                "type": "string",
+                "required": true
+              }
+            }
+          },
+          "status": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "id": "123",
+          "toDate": "2022-11-19T15:46:01.030Z",
+          "package": {
+            "dimensions": {
+              "high": 100,
+              "width": 100,
+              "length": 100
+            },
+            "weigth": 30,
+            "fragile": true
+          },
+          "toUser": {
+            "name": "C",
+            "dni": "123",
+            "address": "c",
+            "city": "c"
+          },
+          "fromUser": {
+            "name": "D",
+            "address": "d",
+            "city": "d"
+          }
+        }
+      },
+      "deleteMail": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "id": "123"
+        }
+      }
+    }
+  }
+}
