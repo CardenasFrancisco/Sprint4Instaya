@@ -1,4 +1,5 @@
 # Este proyecto está creado con Vite
+- Tiene que registrarse correctamente para usar la web.
 # Por lo cual se debe seguir los siguientes pasos:
   1. Para inicializar el proyecto nos ubicamos en la carpeta principal "InstayaServeryVisual".
   2. Abrimos la consola y utilizamos el comando "npm install" para instalar las dependecias necesarias.
