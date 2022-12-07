@@ -9,4 +9,11 @@
 # Dependencias:
   - "@testing-library/jest-dom": "^5.16.5",
   - "bootstrap": "^5.2.1",
-  - "mongodb": "^4.10.
+  - "mongodb": "^4.10.",
+  - "react": "^18.2.0",
+  - "react-bootstrap": "^2.5.0",
+  - "react-dom": "^18.2.0",
+  - "react-icons": "^4.4.0",
+  - "react-router-dom": "^6.4.2",
+  - "react-scripts": "5.0.1",
+  - "web-vitals": "^2.1.4"
