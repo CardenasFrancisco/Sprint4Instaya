@@ -18,10 +18,10 @@
   - "react-scripts": "5.0.1",
   - "web-vitals": "^2.1.4"
   
-instaYa SERVER
-Dependencias
-Instala las dependencias necesarias:
+#instaYa SERVER
+#Dependencias
+#Instala las dependencias necesarias:
 
- ubicar la carpeta InstayaServer/insta usar el comando "npm install"
+*ubicar la carpeta InstayaServer/insta usar el comando "npm install"
 Para Lanzar la API usamos
 "npm run start"
