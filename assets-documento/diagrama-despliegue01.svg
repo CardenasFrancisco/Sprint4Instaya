@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1007px" preserveAspectRatio="none" style="width:559px;height:1007px;background:#FFFFFF;" version="1.1" viewBox="0 0 559 1007" width="559px" zoomAndPan="magnify"><defs/><g><!--MD5=[54562364cd4ea45a60cec944083c2372]
+cluster Dispositivo Cliente--><g id="cluster_Dispositivo Cliente"><polygon fill="none" points="24,154.5,34,144.5,408,144.5,408,267.5,398,277.5,24,277.5,24,154.5" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="398" x2="408" y1="154.5" y2="144.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="24" x2="398" y1="154.5" y2="154.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="398" x2="398" y1="154.5" y2="277.5"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="308" x="58" y="169.7333">«device - Windows, Linux, Mac, IOS, Android»</text><text fill="#000000" font-family="JetBrains Mono" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="133" x="145.5" y="185.5646">Dispositivo Cliente</text></g><!--MD5=[bd90ffa7a8662ad8ca54e14c9a9071ea]
+cluster Servidor Web--><g id="cluster_Servidor Web"><polygon fill="none" points="27,336.5,37,326.5,542,326.5,542,814.5,532,824.5,27,824.5,27,336.5" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="532" x2="542" y1="336.5" y2="326.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="27" x2="532" y1="336.5" y2="336.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="532" x2="532" y1="336.5" y2="824.5"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="56" x="252.5" y="351.7333">«device»</text><text fill="#000000" font-family="JetBrains Mono" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="84" x="238.5" y="367.5646">Servidor Web</text></g><!--MD5=[7d0c07f9a6de271d4645135cfac067fc]
+cluster Aplicación--><g id="cluster_Aplicación"><polygon fill="none" points="202,407.5,212,397.5,504,397.5,504,529.5,494,539.5,202,539.5,202,407.5" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="494" x2="504" y1="407.5" y2="397.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="202" x2="494" y1="407.5" y2="407.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="494" x2="494" y1="407.5" y2="539.5"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="70" x="314" y="422.7333">«React.js»</text><text fill="#000000" font-family="JetBrains Mono" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="70" x="314" y="438.5646">Aplicación</text></g><!--MD5=[63aaa9bd3349469bec2578d8852333bb]
+cluster IBD--><g id="cluster_IBD"><polygon fill="none" points="59,598.5,69,588.5,510,588.5,510,782.5,500,792.5,59,792.5,59,598.5" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="500" x2="510" y1="598.5" y2="588.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="59" x2="500" y1="598.5" y2="598.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="500" x2="500" y1="598.5" y2="792.5"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="161" x="200" y="613.7333">«Execution Environment»</text><text fill="#000000" font-family="JetBrains Mono" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="147" x="207" y="629.5646">Interfaz BD - Node.Js</text></g><!--MD5=[ef03d728570c6dcb71a1281c86e26233]
+cluster Express.js--><g id="cluster_Express.js"><polygon fill="none" points="99,669.5,109,659.5,478,659.5,478,750.5,468,760.5,99,760.5,99,669.5" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="468" x2="478" y1="669.5" y2="659.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="99" x2="468" y1="669.5" y2="669.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="468" x2="468" y1="669.5" y2="760.5"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="70" x="249.5" y="684.7333">Express.js</text></g><!--MD5=[737b3725d8b120505f8bbcbb1937784b]
+cluster Servidor BD--><g id="cluster_Servidor BD"><polygon fill="none" points="16,883.5,26,873.5,291,873.5,291,980.5,281,990.5,16,990.5,16,883.5" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="281" x2="291" y1="883.5" y2="873.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="16" x2="281" y1="883.5" y2="883.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="281" x2="281" y1="883.5" y2="990.5"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="56" x="121.5" y="898.7333">«device»</text><text fill="#000000" font-family="JetBrains Mono" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="77" x="111" y="914.5646">Servidor BD</text></g><!--MD5=[8ed08469123f7585c9ad81d9b8ace7be]
+entity Navegador--><g id="elem_Navegador"><polygon fill="#F1F1F1" points="47,209.5,57,199.5,171,199.5,171,251.1626,161,261.1626,47,261.1626,47,209.5" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="161" x2="171" y1="209.5" y2="199.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="47" x2="161" y1="209.5" y2="209.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="161" x2="161" y1="209.5" y2="261.1626"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="62" y="231.7333">«Aplicación»</text><text fill="#000000" font-family="JetBrains Mono" font-size="12" lengthAdjust="spacing" textLength="63" x="72.5" y="247.5646">Navegador</text></g><!--MD5=[412002fae51c56458fd5c3992d117e33]
+entity Servidor HTTP--><g id="elem_Servidor HTTP"><rect fill="#F1F1F1" height="45.8313" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="131" x="43.5" y="465"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="154.5" y="470"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="152.5" y="472"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="152.5" y="476"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" lengthAdjust="spacing" textLength="91" x="58.5" y="497.2333">Servidor HTTP</text></g><!--MD5=[3d3cd76ac90e577366be3a1431c06e0a]
+entity Bootstrap--><g id="elem_Bootstrap"><rect fill="#F1F1F1" height="54.6626" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="380" y="460.5"/><polygon fill="#F1F1F1" points="463,465.5,463,479.5,475,479.5,475,471.5,469,465.5,463,465.5" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="469" x2="469" y1="465.5" y2="471.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="475" x2="469" y1="471.5" y2="471.5"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="70" x="390" y="485.7333">«artifact»</text><text fill="#000000" font-family="JetBrains Mono" font-size="12" lengthAdjust="spacing" textLength="63" x="393.5" y="501.5646">Bootstrap</text></g><!--MD5=[337e6b79d718c77a547df0b55e57459f]
+entity React.js--><g id="elem_React.js"><rect fill="#F1F1F1" height="54.6626" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="245" y="460.5"/><polygon fill="#F1F1F1" points="328,465.5,328,479.5,340,479.5,340,471.5,334,465.5,328,465.5" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="334" x2="334" y1="465.5" y2="471.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="340" x2="334" y1="471.5" y2="471.5"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="70" x="255" y="485.7333">«artifact»</text><text fill="#000000" font-family="JetBrains Mono" font-size="12" lengthAdjust="spacing" textLength="56" x="262" y="501.5646">React.js</text></g><!--MD5=[31d9f9646cb52c054614ba682d3f7108]
+entity Express Middleware--><g id="elem_Express Middleware"><rect fill="#F1F1F1" height="45.8313" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="166" x="296" y="698.5"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="442" y="703.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="440" y="705.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="440" y="709.5"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" lengthAdjust="spacing" textLength="126" x="311" y="730.7333">Express Middleware</text></g><!--MD5=[8518d66c9b1d9a5e296f48e2cc02616a]
+entity Express Routing--><g id="elem_Express Routing"><rect fill="#F1F1F1" height="45.8313" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="145" x="115.5" y="698.5"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="240.5" y="703.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="238.5" y="705.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="238.5" y="709.5"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" lengthAdjust="spacing" textLength="105" x="130.5" y="730.7333">Express Routing</text></g><!--MD5=[ba72416187da2a396e219ea5b5d73a26]
+entity MongoDB--><g id="elem_MongoDB"><path d="M32.5,939 C32.5,929 67,929 67,929 C67,929 101.5,929 101.5,939 L101.5,963.8313 C101.5,973.8313 67,973.8313 67,973.8313 C67,973.8313 32.5,973.8313 32.5,963.8313 L32.5,939 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M32.5,939 C32.5,949 67,949 67,949 C67,949 101.5,949 101.5,939 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" lengthAdjust="spacing" textLength="49" x="42.5" y="965.2333">MongoDB</text></g><!--MD5=[be62abfecf94cac247d0f11cfa453d87]
+entity Almacenamiento--><g id="elem_Almacenamiento"><rect fill="#F1F1F1" height="45.8313" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="138" x="137" y="928.5"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="255" y="933.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="253" y="935.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="253" y="939.5"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" lengthAdjust="spacing" textLength="98" x="152" y="960.7333">Almacenamiento</text></g><!--MD5=[128f0757cf0ea77f14e95a88885fd9f7]
+entity Usuario--><g id="elem_Usuario"><ellipse cx="109" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M109,22 L109,49 M96,30 L122,30 M109,49 L96,64 M109,49 L122,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" lengthAdjust="spacing" textLength="49" x="84.5" y="77.7333">Usuario</text></g><!--MD5=[d339afe8c85043fd404b919b5f59b290]
+link Usuario to Navegador--><g id="link_Usuario_Navegador"><path d="M109,87.33 C109,119.8 109,163.88 109,194.3 " fill="none" id="Usuario-Navegador" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="109,199.44,113,190.44,109,194.44,105,190.44,109,199.44" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="109,81.94,105,90.94,109,86.94,113,90.94,109,81.94" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" lengthAdjust="spacing" textLength="14" x="110" y="124.7333">UI</text></g><!--MD5=[3c803dfe035eff7989495df9a2040b12]
+link Navegador to Servidor HTTP--><g id="link_Navegador_Servidor HTTP"><path d="M109,266.59 C109,318.08 109,413.06 109,459.71 " fill="none" id="Navegador-Servidor HTTP" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="109,464.88,113,455.88,109,459.88,105,455.88,109,464.88" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="109,261.56,105,270.56,109,266.56,113,270.56,109,261.56" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" lengthAdjust="spacing" textLength="70" x="110" y="306.7333">HTTP/HTTPS</text></g><!--MD5=[9c8d8800bbf905b3295316fa4a2d33f8]
+link Aplicación to Servidor HTTP--><g id="link_Aplicación_Servidor HTTP"><path d="M201.9775,488 C201.9392,488 201.9009,488 201.8626,488 C201.7859,488 201.7093,488 201.6327,488 C201.4794,488 201.3261,488 201.1728,488 C200.8662,488 200.5597,488 200.2531,488 C199.64,488 199.0269,488 198.4138,488 C197.1875,488 195.9613,488 194.735,488 C189.83,488 184.925,488 180.02,488 " fill="none" id="Aplicación-Servidor HTTP" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="174.89,488,183.89,492,179.89,488,183.89,484,174.89,488" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="201.9775,488,192.9775,484,196.9775,488,192.9775,492,201.9775,488" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[25ef3213b8ea7915ea64088311d116dd]
+link Aplicación to IBD--><g id="link_Aplicación_IBD"><path d="M214.0324,539.6875 C213.977,539.9029 213.9201,540.1178 213.8617,540.3322 C213.7451,540.761 213.6226,541.1877 213.4942,541.6121 C212.9807,543.3097 212.372,544.9706 211.657,546.5799 C210.2269,549.7986 208.3713,552.8113 206,555.5 C190.07,573.56 116.68,556.15 99,572.5 C95.96,575.3113 93.1729,578.3368 90.6192,581.5396 C89.3423,583.141 88.1237,584.7868 86.9611,586.4722 C86.6704,586.8936 86.3832,587.3174 86.0995,587.7437 C85.9577,587.9568 85.8167,588.1705 85.6765,588.3848 " fill="none" id="Aplicación-IBD" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="85.6765,588.3848,93.9498,583.0413,88.4129,584.2001,87.2541,578.6631,85.6765,588.3848" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="214.0324,539.6875,207.9142,547.4054,212.7854,544.5295,215.6614,549.4007,214.0324,539.6875" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[14c618edb3f531e12c306633eb8b609d]
+link Servidor HTTP to IBD--><g id="link_Servidor HTTP_IBD"><path d="M104.02,516.44 C101.285,531.52 97.6556,551.5281 93.7373,573.1275 C93.2476,575.8274 92.7533,578.5522 92.2556,581.2953 C92.0068,582.6669 91.7572,584.0431 91.5068,585.423 C91.3817,586.1129 91.2563,586.8038 91.1308,587.4956 " fill="none" id="Servidor HTTP-IBD" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="91.1308,587.4956,96.6731,579.3541,92.0233,582.5759,88.8016,577.9261,91.1308,587.4956" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="104.97,511.2,99.4141,519.3322,104.0693,516.1182,107.2833,520.7733,104.97,511.2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0b4187b0260f5fc9e2eb6b3a7c1f109b]
+link IBD to MongoDB--><g id="link_IBD_MongoDB"><path d="M67,793.3317 C67,793.9724 67,794.6152 67,795.2601 C67,797.8396 67,800.4517 67,803.09 C67,845.3025 67,894.22 67,923.74 " fill="none" id="IBD-MongoDB" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="67,928.86,71,919.86,67,923.86,63,919.86,67,928.86" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="67,793.3317,63,802.3317,67,798.3317,71,802.3317,67,793.3317" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="JetBrains Mono" font-size="12" lengthAdjust="spacing" textLength="42" x="68" y="853.7333">TCP/IP</text></g><!--MD5=[c5ce7ffb3d789285794f6039ad5d43e5]
+link MongoDB to Almacenamiento--><g id="link_MongoDB_Almacenamiento"><path d="M106.95,951.5 C115.18,951.5 123.41,951.5 131.65,951.5 " fill="none" id="MongoDB-Almacenamiento" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="136.77,951.5,127.77,947.5,131.77,951.5,127.77,955.5,136.77,951.5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="101.75,951.5,110.75,955.5,106.75,951.5,110.75,947.5,101.75,951.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[af9c162b5b758cba70fe144324d560a0]
+@startuml
+<style>
+title{
+	FontName JetBrains Mono
+	FontStyle Bold
+	FontSize 14
+}
+componentDiagram{
+	FontName JetBrains Mono
+	FontSize 12
+}
+
+</style>
+
+' !include https://raw.githubusercontent.com/ptrkcsk/one-dark-plantuml-theme/v1.0.0/theme.puml
+
+' title Diagrama de Despliegue\nSistema de Reserva\npara Plataforma de Envíos InstaYA
+actor "Usuario"
+' node node [
+' <b>Sistema de Login
+' - - - -
+' Inicializa el panel de usuario
+' Registra Usuario
+
+' ]
+
+node "Dispositivo Cliente" <<device - Windows, Linux, Mac, IOS, Android>> {
+
+    node Navegador <<Aplicación>> {
+    }
+
+}
+
+node "Servidor Web" <<device>> {
+    node "Aplicación" <<React.js>> {
+        artifact Bootstrap <<artifact>>
+        artifact React.js <<artifact>>
+        ' [Login]
+        ' [Registro]
+        ' [Listado Órdenes]
+        ' [Registro Órdenes]
+        ' [Actualización Órdenes]
+
+    }
+    component "Servidor HTTP"
+    node "Interfaz BD - Node.Js" <<Execution Environment>> as IBD {
+        node "Express.js" {
+            [Express Middleware]
+            [Express Routing]
+
+        }
+
+    }
+}
+
+node "Servidor BD" <<device>> {
+
+    database "MongoDB"
+    component "Almacenamiento"
+}
+
+' node ISP <<Access Point>> {
+'     rectangle "???"
+' }
+' node "ISP"
+
+
+[Usuario] <- -> Navegador : UI
+' Navegador <- -> ISP : HTTP/HTTPS
+' ISP <- -> [Servidor HTTP] : HTTP/HTTPS
+Navegador <- -> [Servidor HTTP] : HTTP/HTTPS
+Aplicación <-> [Servidor HTTP]
+Aplicación <-> IBD
+[Servidor HTTP] <- -> IBD
+
+
+' [Navegador] <- -> [Servidor HTTP] : <<HTTP/HTTPS>>\nISP
+IBD <- -> [MongoDB] : TCP/IP
+[MongoDB] <-> [Almacenamiento]
+
+' [Login] -> [Registro]
+' [Login] - -> [Listado Órdenes]
+' [Listado Órdenes] -> [Actualización Órdenes]
+' [Listado Órdenes] - -> [Registro Órdenes]
+
+@enduml
+
+@startuml
+<style>
+title{
+	FontName JetBrains Mono
+	FontStyle Bold
+	FontSize 14
+}
+componentDiagram{
+	FontName JetBrains Mono
+	FontSize 12
+}
+
+</style>
+
+
+actor "Usuario"
+
+
+node "Dispositivo Cliente" <<device - Windows, Linux, Mac, IOS, Android>> {
+
+    node Navegador <<Aplicación>> {
+    }
+
+}
+
+node "Servidor Web" <<device>> {
+    node "Aplicación" <<React.js>> {
+        artifact Bootstrap <<artifact>>
+        artifact React.js <<artifact>>
+
+    }
+    component "Servidor HTTP"
+    node "Interfaz BD - Node.Js" <<Execution Environment>> as IBD {
+        node "Express.js" {
+            [Express Middleware]
+            [Express Routing]
+
+        }
+
+    }
+}
+
+node "Servidor BD" <<device>> {
+
+    database "MongoDB"
+    component "Almacenamiento"
+}
+
+
+
+[Usuario] <- -> Navegador : UI
+Navegador <- -> [Servidor HTTP] : HTTP/HTTPS
+Aplicación <-> [Servidor HTTP]
+Aplicación <-> IBD
+[Servidor HTTP] <- -> IBD
+
+
+IBD <- -> [MongoDB] : TCP/IP
+[MongoDB] <-> [Almacenamiento]
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 12:01:30 COT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

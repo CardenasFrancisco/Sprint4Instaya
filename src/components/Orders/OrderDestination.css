@@ -1,0 +1,13 @@
+.order-item__destination {
+  /* display: flex; */
+  /* flex-direction: column; */
+  font-size: 1rem;
+  font-weight: bold;
+  gap: 1rem;
+  /* align-items: flex-end; */
+  /* flex-flow: column-reversed; */
+  /* justify-content: flex-start; */
+  /* flex: 1; */
+  padding: 0.5rem 1rem;
+  color: white;
+}

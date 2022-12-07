@@ -1,0 +1,206 @@
+@startuml
+header Plataforma Recogida de Paquetes - Grupo 2118_06
+title Cronograma General del Proyecto
+<style>
+title{
+	FontName JetBrains Mono
+	FontStyle Bold
+	FontSize 12
+}
+header {
+	FontName JetBrains Mono
+	FontStyle Light
+	FontSize 10
+}
+ganttDiagram {
+	timeline {
+		FontName JetBrains Mono
+		BackgroundColor LightGray
+
+	}
+	closed {
+		BackgroundColor White
+		FontColor Gray
+	}
+	FontName JetBrains Mono
+	FontSize 10
+
+
+	task {
+		BackGroundColor GreenYellow
+		LineColor DarkGreen
+		unstarted {
+			BackGroundColor OrangeRed
+			LineColor FireBrick
+		}
+
+	}
+
+	milestone {
+			FontName JetBrains Mono
+			FontColor FireBrick
+			FontStyle bold
+			FontSize 12
+			BackgroundColor LightSalmon
+			LineColor FireBrick
+	}
+
+
+}
+</style>
+
+' Color Fondo
+
+2022-09-07 to 2022-09-13 are colored in LightGray
+2022-09-14 to 2022-09-23 are colored in LightSteelBlue
+2022-09-24 to 2022-10-05 are colored in LightGray
+2022-10-06 to 2022-10-12 are colored in LightSteelBlue
+' Nombre
+2022-09-07 to 2022-09-13 are named [Sprint 1]
+2022-09-14 to 2022-09-23 are named [Sprint 2]
+2022-09-24 to 2022-10-05 are named [Sprint 3]
+2022-10-06 to 2022-10-12 are named [Sprint 4]
+
+
+language es
+' Domingos y Feriados
+sundays are closed and are colored White
+
+' Domingo Entrega Sprint 1 Open
+2022-07-17 is open
+
+'Independencia
+2022-07-20 is closed
+2022-07-20 is colored in White
+'Batalla Boyacá
+2022-08-07 is closed
+2022-08-07 is colored in White
+'Virgen Maria
+2022-08-15 is closed
+2022-08-15 is colored in White
+'Día de la Raza
+'2022-10-17 is closed
+'2022-10-17 is colored in White
+
+'Día de los difuntos
+'2022-11-07 is closed
+'2022-11-07 is colored in White
+'Independencia de Cartagena
+'2022-11-14 is closed
+'2022-11-14 is colored in White
+'Día de la Inmaculada Concepción
+'2022-12-08 is closed
+'2022-12-08 is colored in White
+'Navidad
+'2022-12-25 is closed
+'2022-12-25 is colored in White
+
+
+2022-09-13 is colored in SteelBlue
+2022-09-23 is colored in SteelBlue
+2022-10-05 is colored in SteelBlue
+2022-10-12 is colored in SteelBlue
+
+
+Project starts 2022-09-07
+
+
+--Sprint 1--
+[Planificación\n& Diseño] starts 2022-09-07 and ends 2022-09-13
+
+[Definición Roles] starts 2022-09-07 and lasts 1 days
+[Backlog Producto] starts 2022-09-07 and lasts 2 days
+then [Backlog por Sprint] lasts 1 days
+then [Asignacion Backlogs por Roles] lasts 1 days
+[Diagrama Despliegue] starts 2022-09-10 and lasts 2 days
+note bottom
+' <b>Diagrama Despliegue</b>
+** Descripción Componentes
+*** Hardware
+*** Software
+*** Herramientas
+end note
+[Definir Cronograma] starts 2022-09-09 and lasts 3 days
+[Documento #1] starts 2022-09-07 and ends 2022-09-13
+
+[Proyecto - Status 1] starts 2022-09-07 and ends 2022-10-12
+[Proyecto - Status 1] is 20% completed
+
+[Entrega #1] happens 2022-09-13
+
+--Sprint 2--
+then [Front-End] starts 2022-09-14 and ends 2022-09-23
+
+
+[Mapa Navegabilidad] starts 2022-09-14 and lasts 3 days and is 100% completed
+[Mockups] starts 2022-09-14 and lasts 3 days and is 100% completed
+[Front-End React] starts at [Mockups]'s end and lasts 6 days and is 100% completed
+[Vista Login] starts 2022-09-17 and lasts 2 days and is 100% completed
+[Vista Registro Usuario] starts 2022-09-17 and lasts 2 days and is 100% completed
+[Vista Lista Órdenes] starts 2022-09-17 and lasts 2 days and is 100% completed
+[Vista Gestión Órdenes] starts 2022-09-17 and lasts 2 days and is 100% completed
+[Vista Actualización Órdenes] starts 2022-09-17 and lasts 2 days and is 100% completed
+[Vista Registro Órdenes] starts 2022-09-17 and lasts 2 days and is 100% completed
+
+[Plantilla Bootstrap] starts at [Mockups]'s end and lasts 2 days and is 100% completed
+
+
+
+[GIT] starts 2022-09-08 and ends 2022-10-12 and is 50% completed
+[Documento #2] starts 2022-09-14 and ends 2022-09-23 and is 100% completed
+
+[Proyecto - Status 2] starts 2022-09-07 and ends 2022-10-12 and is 40% completed
+
+[Entrega #2] happens 2022-09-23
+
+--Sprint 3--
+then [Forms & API] Starts 2022-09-24 and ends 2022-10-05
+[Componentes] starts 2022-09-24 and lasts 10 days and is 90% completed
+note bottom
+** Definición
+** Esqueleto
+end note
+
+[Formularios] starts 2022-09-24 and lasts 10 days and is 90% completed
+note bottom
+** Creación & Vinculos
+** Renderizado
+end note
+[Registro Usuario] starts 2022-09-24 and lasts 3 days and is 70% completed
+[Registro Órdenes] starts 2022-09-24 and lasts 3 days and is 70% completed
+[Solicitudes API] starts 2022-09-24 and lasts 10 days and is 0% completed
+note bottom
+** Descripción pruebas API
+end note
+[Documento #3] starts 2022-09-24 and ends 2022-10-05 and is 90% completed
+
+[Proyecto - Status 3] starts 2022-09-07 and ends 2022-10-12 and is 70% completed
+
+[Entrega #3] happens 2022-10-05
+
+--Sprint 4--
+then [Back & Deploy] Starts 2022-10-06 and ends 2022-10-12
+
+[NoSQL DB(MongoDB)] starts 2022-10-06 and lasts 3 days and is 0% completed
+[DB Usuarios] starts 2022-10-06 and lasts 3 days and is 0% completed
+[DB Órdenes] starts 2022-10-06 and lasts 3 days and is 0% completed
+[Node.js] starts 2022-10-06 and lasts 2 days and is 0% completed
+[Back-End] starts 2022-10-06 and lasts 2 days and is 0% completed
+[Conectividad DB] starts at [NoSQL DB(MongoDB)]'s end and lasts 2 days and is 0% completed
+[Requerimientos Despliegue] starts 2022-10-06 and lasts 3 days and is 0% completed
+[Despliegue] starts 2022-10-06 and lasts 3 days and is 0% completed
+[Documento Final] starts 2022-10-06 and ends 2022-10-12 and is 0% completed
+
+[Proyecto - Status 4] starts 2022-09-07 and ends 2022-10-12 and is 0% completed
+
+[Entrega Final] happens at [Back & Deploy]'s end
+
+[Planificación\n& Diseño] is colored in Fuchsia/FireBrick
+[Front-End] is colored in LimeGreen/Green
+[Forms & API] is colored in salmon/Red
+[Back & Deploy] is colored in LightBlue/Blue
+[Entrega Final] is colored in LightGreen/Green
+[Entrega #1] is colored in LightGreen/Green
+
+
+@enduml

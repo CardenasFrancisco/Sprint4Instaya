@@ -1,0 +1,23 @@
+.login-item {
+  background-color: #f84601;
+  min-height: 100vh;
+  min-width: 480px;
+  flex-direction: column;
+}
+
+.login {
+  display: flex;
+  background-color: #f84601;
+  min-width: 480px;
+  min-height: 25vh;
+  flex-direction: column;
+  justify-content: center;
+}
+.login button {
+  width: 225px;
+}
+
+.login-item__logo {
+  height: 4rem;
+  pointer-events: none;
+}

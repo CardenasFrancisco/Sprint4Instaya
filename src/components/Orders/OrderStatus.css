@@ -1,0 +1,18 @@
+.order-item__status {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #f84601;
+  border: 1px solid white;
+  padding: 0.5rem;
+  width: 6rem;
+  min-width: 6rem;
+  border-radius: 12px;
+}
+
+.order-item__status-green {
+  background-color: greenyellow;
+}
+.order-item__status-black {
+  background-color: rgb(31, 31, 31);
+}

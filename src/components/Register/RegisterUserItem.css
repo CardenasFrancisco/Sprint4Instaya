@@ -1,0 +1,23 @@
+.register-user-item__register {
+  background-color: #f84601;
+  min-height: 100vh;
+  min-width: 480px;
+  flex-direction: column;
+}
+
+.register-user-item {
+  display: flex;
+  background-color: #f84601;
+  min-width: 480px;
+  min-height: 25vh;
+  flex-direction: column;
+  justify-content: center;
+}
+.register-user-item button {
+  width: 225px;
+}
+
+.register-user-item__logo {
+  height: 4rem;
+  pointer-events: none;
+}
