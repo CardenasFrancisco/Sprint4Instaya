@@ -1,4 +1,4 @@
-# Este proyecto está creado con Create-react-app
+# Este proyecto está creado con Vite
 # Por lo cual se debe seguir los siguientes pasos:
   1. Para inicializar el proyecto nos ubicamos en la carpeta principal "proyectoMinticCiclo4".
   2. Abrimos la consola y utilizamos el comando "npm install".
@@ -18,10 +18,10 @@
   - "react-scripts": "5.0.1",
   - "web-vitals": "^2.1.4"
   
-instaYa SERVER
-Dependencias
-Instala las dependencias necesarias:
+#instaYa SERVER
+#Dependencias
+#Instala las dependencias necesarias:
 
- ubicar la carpeta InstayaServer/insta usar el comando "npm install"
+*ubicar la carpeta InstayaServer/insta usar el comando "npm install"
 Para Lanzar la API usamos
 "npm run start"
